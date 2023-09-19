@@ -18,7 +18,7 @@ function UsersList() {
   return (
     <>
       <p className="text-blue-500 hover:text-blue-700 mb-4 block text-center mt-12 font-bold text-3xl">
-        Wesoftin All Team Member
+        Wesoftin All Team Members
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
         {users.map((user: any) => (
